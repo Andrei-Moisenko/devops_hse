@@ -1,12 +1,5 @@
 #!/bin/bash
 
-# backup script
-# this script will accept three parameters: directory, compression type and output file name
-# the resulting backup archive is encrypted
-# all outputs except errors should be suspended, all errors should be written to the error.log file instead of stderr
-# Add -h/—help arg to your script and Readme.md in repo with user description
-# break the functionality of the script into functions, calling each of them with its own command line argument (./backup.sh -c ... for compression, for example)
-
 # Function to display help
 display_help() {
     echo
